@@ -1,3 +1,6 @@
-var GET = require('./app/ajax');
-GET({url: 'public/bd/en.json'}).then(function() {console.log('success', arguments)})
-    .fail(function() {console.log('error', arguments);});
+var GET = require('./app/ajax'),
+    setLang = (new Bacon.Bus),
+    language = setLang.flatMapLatest(function(lang) {
+    return Bacon.fromPromise(GET({url: 'public/bd/'+lang+'.json'})).map(JSON.parse)
+});
+language.log();
