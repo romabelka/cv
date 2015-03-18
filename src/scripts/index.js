@@ -1,16 +1,6 @@
 var GET = require('./app/ajax'),
-    View = require('./components/main'),
-    setLang = (new Bacon.Bus),
-    language, view;
-language = setLang.flatMapLatest(getLang).merge(getLang('ua'));
+    View = require('./components/main');
 
-window.setLang = setLang;
-/*
-view = React.render(<View />, document.body);
-language.onValue(view.setProps.bind(view));
-*/
-
-
-function getLang(lang) {
-    return Bacon.fromPromise(GET({url: 'public/bd/'+lang+'.json'})).map(JSON.parse)
-}
+GET({url: 'public/bd.json'}).done(function(data) {
+    React.render(<View bd= {JSON.parse(data)}/>, document.body)
+});

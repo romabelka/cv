@@ -52,8 +52,7 @@ gulp.task('vendor', function() {
     var concat = require('gulp-concat');
 
     gulp.src([
-        'bower_components/react/react-with-addons.min.js',
-        'bower_components/bacon/dist/Bacon.min.js'
+        'bower_components/react/react-with-addons.min.js'
     ])
         .pipe(concat('vendor.js'))
         .pipe(gulp.dest('build'));
