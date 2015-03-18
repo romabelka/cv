@@ -1,0 +1,97 @@
+{
+  "en": {
+
+  },
+  "ua": {
+    "name": "Роман Якобчук",
+    "main": ["Програміст", "web-розробник", "тім-лід"],
+    "also": "А також: фізик-теоретик, жонглер, факір та менеджер",
+    "showEmail": "натисніть, щоб відкрити email",
+    "professional": {
+      "title": "Професійні інтереси",
+      "elements": [
+        "Розробка складних клієнтських додатків",
+        "Оптимізація коду",
+        "Використання передових технологій",
+        "full-stack розробка"
+      ]
+    },
+    "personal": {
+      "title": "Особисті якості",
+      "elements": [
+        "Високий рівень дисципліни, відповідальність за результат",
+        "Інженерний підхід до розв'язку задач",
+        "Хороші навики керівництва та комунікацій",
+        "Навчаємість, любов до освіти та самоосвіти"
+      ]
+    },
+    "skills": "Мої навички",
+    "languages": "Мови",
+    "education": {
+      "title": "Освіта",
+      "courses": "Останні пройдені курси",
+      "places" : [
+        {
+          "name": "Фізико-технічний інститут НТУУ “КПІ”, 2007-2012, Бакалавр",
+          "achievements": []
+        },
+        {
+          "name": "Технічний ліцей НТУУ “КПІ”, 2001-2007",
+          "achievements": [
+            "1-е та 2-е місце Київського етапу Малої Академії Наук з програмування(2005, 2006)",
+            "2-е та 3-е місце Київського етапу Олімпіади з програмування(2005, 2006)"
+          ]
+        }
+      ]
+    },
+    "conferences": {
+      "title": "Виступи та доповіді",
+      "elements": [
+        {
+          "name": "JS Lab, Одеса. 'Flux в стилі FRP: зв`язуємо React і Bacon'",
+          "link": "http://www.geekslab.co/events/31-js-lab"
+        }
+      ]
+    }
+  },
+  "ru": {
+
+  },
+  "technologies": {
+    "client": [
+      ["JavaScript", "CoffeeScript"],
+      ["Ember.js (including Ember data)", "React.js", "Bacon.js", "jQuery", "jQuery UI", "Underscore.js"],
+      ["AJAX", "REST", "Gulp", "Assets pipeline", "Browserify", "Bower", "Canvas and other HTML 5 API", "QUnit"],
+      ["HTML 5", "БЭМ", "Handlebars", "EJS", "ERB", "Haml", "React-components(JSX)"],
+      ["CSS 2.1", "CSS 3", "Less", "Stylus", "SCSS", "Sass"]
+    ],
+    "server": [
+      ["Node.js", "Ruby (RoR)", "Scala"],
+      ["Node-webkit", "Apache Cordova"],
+      ["JUnit", "Rake test", "Mocha", "Supertest"],
+      ["Capistrano", "Unix"]
+    ]
+  },
+  "languages": [
+    "English (upper-intermediate)",
+    "Українська (рідна)",
+    "Русский (родной)"
+  ],
+  "courses": [
+    {
+      "name": "Functional Programming Principles in Scala",
+      "link": "https://www.coursera.org/course/progfun"
+    },
+    {
+      "name": "Principles of Reactive Programming",
+      "link": "https://www.coursera.org/course/reactive"
+    }
+  ],
+  "openSource": [
+    {
+      "name": "React + Bacon web media-player",
+      "link": "https://github.com/romabelka/bandura.js",
+      "role": "owner"
+    }
+  ]
+}
