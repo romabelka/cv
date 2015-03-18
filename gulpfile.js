@@ -23,8 +23,6 @@ gulp.task('scripts', function() {
             debug: true,
             extensions: ['.jsx', '.js', '.json'],
             transform: [reactify, literalify.configure({
-                lodash: 'window._',
-                moment: 'window.moment',
                 react: 'window.React'
             })]
         }))
@@ -51,23 +49,26 @@ gulp.task('styles', function() {
 
 // Vendor scripts
 gulp.task('vendor', function() {
-    var concat = require('gulp-concat')
+    var concat = require('gulp-concat');
 
     gulp.src([
-        'bower_components/react/react-with-addons.js',
-        'bower_components/jquery/dist/jquery.js',
-        'bower_components/bacon/dist/Bacon.js',
+        'bower_components/react/react-with-addons.min.js',
+        'bower_components/bacon/dist/Bacon.min.js'
     ])
         .pipe(concat('vendor.js'))
-        .pipe(gulp.dest('build'))
+        .pipe(gulp.dest('build'));
+    gulp.src([
+        'bower_components/bootstrap/dist/css/bootstrap.css'
+    ]).pipe(concat('vendor.css'))
+        .pipe(gulp.dest('build'));
 });
 
 // Watch
 gulp.task('watch', function() {
-    gulp.watch('src/index.html', ['html'])
-    gulp.watch('src/scripts/**', ['scripts'])
-    gulp.watch('src/styles/**', ['styles'])
+    gulp.watch('src/index.html', ['html']);
+    gulp.watch('src/scripts/**', ['scripts']);
+    gulp.watch('src/styles/**', ['styles']);
     gulp.watch('bower_components/**', ['vendor'])
-})
+});
 
 gulp.task('default', ['html', 'scripts', 'styles', 'vendor', 'public'])

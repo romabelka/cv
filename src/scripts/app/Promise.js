@@ -11,18 +11,18 @@ var Promise = function() {
        return this
    };
    this.done = function(callback) {
-       if (callback && typeof callback === 'function') {
+       if (callback && typeof callback == 'function') {
            this.__successCallbacks.push(callback);
-           if (this.__status === 'success') {
+           if (this.__state == 'success') {
                callback.apply(this, this.__value)
            }
        }
        return this
    };
    this.fail = function(callback) {
-       if (callback && typeof callback === 'function') {
+       if (callback && typeof callback == 'function') {
            this.__errorCallbacks.push(callback);
-           if (this.__status === 'error') {
+           if (this.__state == 'error') {
                callback.apply(this, this.__value)
            }
        }
@@ -30,13 +30,12 @@ var Promise = function() {
    };
    this.getState = function() {return this.__state};
    this.__setState = function(args) {
-       if (this.__state !== 'pending') {return this}
+       if (this.__state != 'pending') {return this}
        this.__state = args.status;
        this.__value = args.value;
        this['__' + this.__state + 'Callbacks'].forEach(function(callback) {
            callback.apply(this, this.__value)
        }.bind(this));
-       console.log('---', this);
        return this
    }
 };
