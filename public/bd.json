@@ -1,6 +1,79 @@
 {
   "en": {
-
+    "name": "Roman Iakobchuk",
+    "main": ["Programmer", "web-developer", "team-lead"],
+    "also": "and also: theoretical physicist, juggler, fire-performer and manager",
+    "showEmail": "click to reveal email",
+    "professional": {
+      "title": "Professional interests",
+      "elements": [
+        "Development of complicated client applications",
+        "Code optimization",
+        "Usage of cutting-edge technologies",
+        "full-stack development"
+      ]
+    },
+    "personal": {
+      "title": "Personal characteristics",
+      "elements": [
+        "The high level of discipline, responsibility for the result",
+        "The engineering approach to problem solving",
+        "Advanced skills of management and communications",
+        "Educability, I love studying and self-education"
+      ]
+    },
+    "skills": "My skills",
+    "languages": "Languages",
+    "education": {
+      "title": "Education",
+      "courses": "Last passed courses",
+      "places" : [
+        {
+          "name": "National Technical University of Ukraine ‘KPI’, Applied physics - Bachelor, 2007-2012",
+          "achievements": []
+        },
+        {
+          "name": "Technical lyceum NTUU 'KPI', 2001-2007",
+          "achievements": [
+            "1st and 2nd prize on programming, Minor Academy of Sciences of Ukraine(Kyiv). - 2005, 2006 years",
+            "3rd and 2nd prize, Olympiad on programming(Kiyiv), 2005, 2006 years"
+          ]
+        }
+      ]
+    },
+    "conferences": {
+      "title": "Recent speaks at conferences",
+      "elements": [
+        {
+          "name": "JS Lab, Odessa. 'Real life React'",
+          "link": "http://geekslab.co/events/59-konferentsiya-js-lab"
+        },
+        {
+          "name": "WebStandards, Minsk. 'Creating Universal Apps with React'",
+          "link": "https://wsd.events/2015/10/31/"
+        },
+        {
+          "name": "IT Weekend, Kyiv. 'React for Universal Apps'",
+          "link": "https://itweekend.ua/ua/speakers/roman-yakobchuk/"
+        },
+        {
+          "name": "LvivJS, Lviv. 'Building Isomorphic SPA Using React.Js'",
+          "link": "http://www.lvivjs.org.ua/"
+        },
+        {
+          "name": "Angular & React Frameworks Day 2015, Kyiv. 'React for Universal Apps'",
+          "link": "http://frameworksdays.com/event/angular-react-fwday-2015/speakers"
+        },
+        {
+          "name": "Odessa Innovation week, Odessa. 'FRP + React, building async UIs'",
+          "link": "http://webcamp.in.ua/frontend-developers-day.html"
+        },
+        {
+          "name": "JS Lab, Odessa, Ukraine. 'FRP-flavoured Flux: linking React and Bacon'",
+          "link": "http://www.geekslab.co/events/31-js-lab"
+        }
+      ]
+    }
   },
   "ua": {
     "name": "Роман Якобчук",
@@ -48,6 +121,30 @@
       "title": "Виступи та доповіді",
       "elements": [
         {
+          "name": "JS Lab, Одеса. 'React в реальной жизни'",
+          "link": "http://geekslab.co/events/59-konferentsiya-js-lab"
+        },
+        {
+          "name": "WebStandards, Минск. 'Создание универсальных приложений на React'",
+          "link": "https://wsd.events/2015/10/31/"
+        },
+        {
+          "name": "IT Weekend, Київ. 'React for Universal Apps'",
+          "link": "https://itweekend.ua/ua/speakers/roman-yakobchuk/"
+        },
+        {
+          "name": "LvivJS, Львів. 'Building Isomorphic SPA Using React.Js'",
+          "link": "http://www.lvivjs.org.ua/"
+        },
+        {
+          "name": "Angular & React Frameworks Day 2015, Київ. 'React for Universal Apps, або наступний після Node крок по захопленню серверної розробки'",
+          "link": "http://frameworksdays.com/event/angular-react-fwday-2015/speakers"
+        },
+        {
+          "name": "Odessa Innovation week, Одеса. 'FRP + React, building async UIs'",
+          "link": "http://webcamp.in.ua/frontend-developers-day.html"
+        },
+        {
           "name": "JS Lab, Одеса. 'Flux в стилі FRP: зв`язуємо React і Bacon'",
           "link": "http://www.geekslab.co/events/31-js-lab"
         }
@@ -55,6 +152,80 @@
     }
   },
   "ru": {
+    "name": "Роман Якобчук",
+    "main": ["Программист", "web-разработчик", "тим-лид"],
+    "also": "А также: физик-теоретик, жёнглер, факир и менеджер",
+    "showEmail": "нажмите, чтобы открыть email",
+    "professional": {
+      "title": "Профессиональные интересы",
+      "elements": [
+        "Разработка сложных клиентских приложений",
+        "Оптимизация кода",
+        "Использование передовых технологий",
+        "full-stack разработка"
+      ]
+    },
+    "personal": {
+      "title": "Личные качества",
+      "elements": [
+        "Высокий уровень дисциплины, ответственность за результат",
+        "Инженерный подход к решению задач",
+        "Хорошие навыки руководства и коммуникаций",
+        "Обучаемость, любовь к образованию и самообразованию"
+      ]
+    },
+    "skills": "Мои навыки",
+    "languages": "Языки",
+    "education": {
+      "title": "Образование",
+      "courses": "Последние пройденные курсы",
+      "places" : [
+        {
+          "name": "Физико-технический институт НТУУ “КПИ”, 2007-2012, Бакалавр",
+          "achievements": []
+        },
+        {
+          "name": "Технический лицей НТУУ “КПИ”, 2001-2007.",
+          "achievements": [
+            "1-е и 2-е место Киевского этапа Малой Академии Наук по программированию(2005, 2006)",
+            "2-е и 3-е место Киевского этапа Олимпиады по программированию(2005, 2006)"
+          ]
+        }
+      ]
+    },
+    "conferences": {
+      "title": "Выступления и доклады",
+      "elements": [
+        {
+          "name": "JS Lab, Одесса. 'React в реальной жизни'",
+          "link": "http://geekslab.co/events/59-konferentsiya-js-lab"
+        },
+        {
+          "name": "WebStandards, Минск. 'Создание универсальных приложений на React'",
+          "link": "https://wsd.events/2015/10/31/"
+        },
+        {
+          "name": "IT Weekend, Киев. 'React for Universal Apps'",
+          "link": "https://itweekend.ua/ua/speakers/roman-yakobchuk/"
+        },
+        {
+          "name": "LvivJS, Львов. 'Building Isomorphic SPA Using React.Js'",
+          "link": "http://www.lvivjs.org.ua/"
+        },
+        {
+          "name": "Angular & React Frameworks Day 2015, Киев. 'React for Universal Apps, або наступний після Node крок по захопленню серверної розробки'",
+          "link": "http://frameworksdays.com/event/angular-react-fwday-2015/speakers"
+        },
+        {
+          "name": "Odessa Innovation week, Одесса. 'FRP + React, building async UIs'",
+          "link": "http://webcamp.in.ua/frontend-developers-day.html"
+        },
+        {
+          "name": "JS Lab, Одесса. 'Flux в стиле FRP: связываем React и Bacon'",
+          "link": "http://www.geekslab.co/events/31-js-lab"
+        }
+      ]
+    }
 
   },
   "technologies": {

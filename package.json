@@ -1,0 +1,32 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romabelka/cv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romabelka/cv/issues"
+  },
+  "homepage": "https://github.com/romabelka/cv#readme",
+  "devDependencies": {
+    "core-util-is": "^1.0.2",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-less": "^3.0.5",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.7",
+    "literalify": "^0.4.0",
+    "normalize": "^0.3.1",
+    "reactify": "^1.1.1"
+  }
+}
