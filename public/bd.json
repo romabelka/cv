@@ -24,6 +24,7 @@
     },
     "skills": "My skills",
     "languages": "Languages",
+    "teaching": "Author of courses:",
     "education": {
       "title": "Education",
       "courses": "Last passed courses",
@@ -100,6 +101,7 @@
     },
     "skills": "Мої навички",
     "languages": "Мови",
+    "teaching": "Автор курсів:",
     "education": {
       "title": "Освіта",
       "courses": "Останні пройдені курси",
@@ -118,7 +120,7 @@
       ]
     },
     "conferences": {
-      "title": "Виступи та доповіді",
+      "title": "Останні доповіді на конференціях",
       "elements": [
         {
           "name": "JS Lab, Одеса. 'React в реальной жизни'",
@@ -176,6 +178,7 @@
     },
     "skills": "Мои навыки",
     "languages": "Языки",
+    "teaching": "Автор курсов:",
     "education": {
       "title": "Образование",
       "courses": "Последние пройденные курсы",
@@ -194,7 +197,7 @@
       ]
     },
     "conferences": {
-      "title": "Выступления и доклады",
+      "title": "Последние доклады на конференциях",
       "elements": [
         {
           "name": "JS Lab, Одесса. 'React в реальной жизни'",
@@ -231,13 +234,14 @@
   "technologies": {
     "client": [
       ["JavaScript", "CoffeeScript"],
-      ["Ember.js (including Ember data)", "React.js", "Bacon.js", "jQuery", "jQuery UI", "Underscore.js"],
-      ["AJAX", "REST", "Gulp", "Assets pipeline", "Browserify", "Bower", "Canvas and other HTML 5 API", "QUnit"],
-      ["HTML 5", "БЭМ", "Handlebars", "EJS", "ERB", "Haml", "React-components(JSX)"],
+      ["React expert (Flux, Redux, immutable.js and other)", "Ember", "Bacon", "jQuery", "jQuery UI", "Underscore", "Lodash"],
+      ["Webpack", "Browserify", "Gulp", "Assets pipeline", "NPM", "Bower", "HTML 5 API", "QUnit"],
+      ["HTML 5", "БЭМ", "Handlebars", "EJS", "ERB", "Haml", "React-components (JSX)"],
       ["CSS 2.1", "CSS 3", "Less", "Stylus", "SCSS", "Sass"]
     ],
     "server": [
-      ["Node.js", "Ruby (RoR)", "Scala"],
+      ["Node.js (Express, Socket.io)", "Ruby (RoR)", "Scala"],
+      ["MongoDB", "MySQL", "PostgreSQL"],
       ["Node-webkit", "Apache Cordova"],
       ["JUnit", "Rake test", "Mocha", "Supertest"],
       ["Capistrano", "Unix"]
@@ -263,6 +267,23 @@
       "name": "React + Bacon web media-player",
       "link": "https://github.com/romabelka/bandura.js",
       "role": "owner"
+    },
+    {
+      "name": "Node generator for MS Office documents",
+      "link": "https://github.com/Ziv-Barber/officegen",
+      "role": "contributor"
     }
-  ]
+  ],
+  "teaching": {
+    "courses":   [
+      {
+        "link": "http://learn.javascript.ru/courses/react",
+        "name": "learn.javascript.ru React course"
+      },
+      {
+        "link": "http://smartme.university/course/react-ot-a-do-ya/",
+        "name": "Smartme university: React from A to Z"
+      }
+    ]
+  }
 }

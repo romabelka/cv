@@ -93,6 +93,24 @@ module.exports = React.createClass({
                 </div>
                 <div className="row">
                     <div className="col-md-12">
+                        <h3>{i18n.conferences.title}</h3>
+                        <ul>
+                            {i18n.conferences.elements.map(function(conf){
+                                return <li><a href={conf.link}>{conf.name}</a></li>
+                            })}
+                        </ul>
+                        <h3>{i18n.teaching}</h3>
+                        <ul>
+                            {this.props.bd.teaching.courses.map(function(course) {
+                                return <li key={course.link}><a href={course.link}>{course.name}</a></li>
+                            })}
+                        </ul>
+                        <h3>Open-source</h3>
+                        <ul>
+                            {this.props.bd.openSource.map(function(proj) {
+                                return <li><a href={proj.link}>{proj.name}</a> - {proj.role}</li>
+                            })}
+                        </ul>
                         <h3>{i18n.languages}</h3>
                         <ul>
                             {this.props.bd.languages.map(function(text) {return <li>{text}</li>})}
@@ -117,19 +135,6 @@ module.exports = React.createClass({
                                         </ul>
                                     </li>
                                 </ul>
-                                <h3>{i18n.conferences.title}</h3>
-                                <ul>
-                                {i18n.conferences.elements.map(function(conf){
-                                    return <li><a href={conf.link}>{conf.name}</a></li>
-                                })}
-                                </ul>
-                                <h3>Open-source</h3>
-                                <ul>
-                                {this.props.bd.openSource.map(function(proj) {
-                                    return <li><a href={proj.link}>{proj.name}</a> - {proj.role}</li>
-                                })}
-                                </ul>
-
                             </div>
                         </div>
                     </div>
